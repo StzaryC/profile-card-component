@@ -26,8 +26,8 @@
     text-align: center;
     .avatar {
       position: absolute;
-      width: 96px;
-      height: 96px;
+      width: 101px;
+      height: 101px;
       left: calc(50% - 96px/2);
       top: 92px + 173px;
       border-radius: 50px;
@@ -52,7 +52,7 @@
         color: $dark-grayish-blue;
         font-size: 14px;
         font-weight: 400;
-        margin-top: 8px;
+        margin-top: 13px;
       }
     }
 
@@ -67,7 +67,7 @@
       display: flex;
       justify-content: space-around;
       @media (min-width: 425px) {
-        margin-top: 10px;
+        margin-top: 5px;
       }
       &__number {
         font-size: $name-and-stats;
