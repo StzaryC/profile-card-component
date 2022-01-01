@@ -1,0 +1,11 @@
+body {
+  background-color: $dark-cyan;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: 622px 621px;
+  background-position: right 42vw bottom 78vh, left 35vw top 66vh;
+  @media (min-width: 425px) {
+    background-size: 978px 976px;
+    background-position: right 50vw bottom 45vh, left 48vw top 54vh;
+  }
+}

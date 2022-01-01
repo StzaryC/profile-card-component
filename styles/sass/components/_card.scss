@@ -1,0 +1,94 @@
+.card {
+  width: 326px;
+  margin: 150px auto 180px auto;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  @media (min-width: 425px) {
+    width: 350px;
+    height: 374px;
+  }
+  &__img {
+    height: 140px;
+    img {
+      height: 140px;
+      width: 326px;
+      border-radius: 15px 15px 0 0;
+      @media (min-width: 425px) {
+        height: 140px;
+        width: 350px;
+      }
+    }
+  }
+  &__body {
+    text-align: center;
+    .avatar {
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      left: calc(50% - 96px/2);
+      top: 92px + 150px;
+      border-radius: 50px;
+      background: url(../images/image-victor.jpg);
+      background-size: cover;
+      border: 5px solid #fff;
+    }
+    .info {
+      margin: 72px 0 0;
+      &__name {
+        color: $very-dark-desaturated-blue;
+        font-size: $name-and-stats;
+        font-weight: 700;
+        line-height: 18.11px;
+        span {
+          color: $dark-grayish-blue;
+          font-weight: 400;
+          margin-left: 5px;
+        }
+      }
+      &__location {
+        color: $dark-grayish-blue;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 8px;
+      }
+    }
+
+    .rectangle {
+      margin-top: 24px;
+      background: #e8e9ec;
+      height: 1px;
+      width: 100%;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      &__number {
+        font-size: $name-and-stats;
+        line-height: 18.11px;
+        font-weight: 700;
+        color: $very-dark-desaturated-blue;
+      }
+      &__text {
+        font-size: 10px;
+        line-height: 10.06px;
+        letter-spacing: 1.5px;
+        font-weight: 400;
+        margin-top: 9px;
+        color: $dark-grayish-blue;
+      }
+      &__followers {
+        margin: 24px 38px 24px 31px;
+      }
+      &__likes {
+        margin: 24px 46px 24px 0;
+      }
+      &__photos {
+        margin: 24px 52px 24px 0;
+      }
+    }
+  }
+}
