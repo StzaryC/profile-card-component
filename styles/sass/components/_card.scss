@@ -29,7 +29,7 @@
       width: 96px;
       height: 96px;
       left: calc(50% - 96px/2);
-      top: 92px + 150px;
+      top: 92px + 173px;
       border-radius: 50px;
       background: url(../images/image-victor.jpg);
       background-size: cover;
@@ -66,6 +66,9 @@
     .stats {
       display: flex;
       justify-content: space-around;
+      @media (min-width: 425px) {
+        margin-top: 10px;
+      }
       &__number {
         font-size: $name-and-stats;
         line-height: 18.11px;
