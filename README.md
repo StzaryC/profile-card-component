@@ -2,7 +2,7 @@
 
 This is a solution to the [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
-<img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/l3wolxnucf8lvublpeh3.jpg">
+<img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_900/Screenshots/jb57nwcxvxcmiym33fth.jpg">
 
 
 ## Links
